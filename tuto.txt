@@ -1,0 +1,85 @@
+﻿============================================
+Comando para revisar nuestra configuración de Usuario.
+
+/cfg
+
+============================================
+Comando para configurar Usuario y Contraseña
+
+Se usa pasando el usuario luego una coma y unido la contraseña
+
+/acc jean,1234
+
+============================================
+Comando para establecer el Host del moodle o la nube
+
+Se usa pasando la url del Host detrás del comando.
+
+/host https://aulacened.uci.cu/
+
+============================================
+Comando para configurar el Repo ID de el host
+
+Se usa pasando el id detrás del comando, el id va del número 2 al 6
+
+/repo 5
+
+============================================
+Comando Para cambiar a modo Nube.
+
+Solo use el comando /cloud y automaticamente pasa a modo nube.
+
+============================================
+Comando para establecer a que carpeta de la nube se subira.
+
+Se usa pasando el nombre del directorio detrás del comando.
+
+/dir descargas
+
+============================================
+Comando para configurar subida a moodle
+
+Solo use el comando /moodle y automaticamente pasa a modo moodle, predeterminado siempre esta en moodo moodle.
+
+============================================
+Comando para configurar que tipo de subida a moodle.
+existen 4 maneras: 
+/up draft
+/up blog 
+/up evidence 
+/up calendar
+
+============================================
+Comando para establecer proxy en el Bot.
+
+Se usa pasando el proxy claramente encriptado detrás del comando.
+
+/proxy soket587d89as891723821jhkasd
+
+============================================
+Comando para eliminar el proxy del Bot
+
+/off_proxy
+
+============================================
+Comando para establecer el tamaño maximo por archivos.
+Este comando sirve cuando su nube por ejemplo es de 50 mb por archivo y usted quiere subir algo de 200 MiB pues el Bot parte el archivo en partes de 50 MiB y los sube.
+
+Se usa pasando un número detrás del comando
+
+/zip 50
+
+============================================
+Configurar para activar encriptado, no disponible.
+
+/tokenize_on
+
+============================================
+Configurar para desactivar encriptado, no disponible.
+
+/tokenize_off
+
+============================================
+Comando para mostrar la ayuda disponible del Bot.
+
+/help 
