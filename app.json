@@ -1,0 +1,19 @@
+﻿{
+  "name": "Link directo",
+  "description": "Difrute del bot",
+  "env": {
+    "administrador": {
+      "description": "usuario de telegram",
+      "value": ""
+    },
+    "bot_token": {
+      "description": "El token del bot",
+      "value": ""
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-python.git"
+    }
+  ]
+}
